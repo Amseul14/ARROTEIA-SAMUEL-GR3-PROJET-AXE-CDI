@@ -1,0 +1,36 @@
+.dialogDiv {
+    height: 0;
+    width: 0;
+    position: fixed;
+
+    z-index: 1; 
+    overflow-x: hidden;
+
+    top: 70%;
+    margin-left: 30% ;
+    margin-right : 30% ;
+    padding-top: 60px;
+
+    background-color: rgb(49, 49, 49);
+    border-radius: 25px;
+    transition: 0.5s; 
+}
+
+.cancel {
+    display: block;
+    margin-bottom: 15px;
+    width: 50px ;
+    height: 30px ;
+}
+.dialogDiv input {
+    height : 100px ;
+    width : 80% ;
+    border-radius: 10px;
+}
+
+.dialogDiv button {
+    background-color: darkgray;
+    border: unset;
+    border-radius: 10px;
+    margin-top: 15px;
+}

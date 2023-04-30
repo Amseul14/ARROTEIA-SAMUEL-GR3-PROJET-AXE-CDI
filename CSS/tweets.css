@@ -1,0 +1,71 @@
+.tweet {
+    border-radius: 15px ;
+    background-color: rgb(46, 46, 46);
+    width : 60% ;
+
+    margin : 20px 0 10% 20% ;
+    padding : 20px ;
+}
+.tweet h2 {
+    margin-left: 20% ;
+    color: aliceblue;
+}
+
+.tweet-div {
+    display: flex;
+    height: auto;
+    width: 60%;
+
+    text-align: left;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.tweet-text {
+    text-align: left;
+    width: 80%;
+}
+
+.tweet-img {
+    background: none;
+    border: unset;
+}
+.tweet-img img{
+    padding-top: 5px;
+    width : 20px;
+    height: 20px;
+}
+
+.tweet-tag {
+    animation: color-change 4s infinite;
+}
+
+.tweet-date {
+    font-size : 12px ;
+    margin-top: 40px;
+    margin-left : 20px;
+    padding-right: 8px;
+    text-align: right;
+    font-size : 10px ;
+}
+
+#popupDelete {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
+    border: 1px solid black;
+    border-radius : 25px ;
+    background-color: rgb(97, 97, 97);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }

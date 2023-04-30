@@ -1,0 +1,49 @@
+.sideNav {
+    height: auto; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 130px;
+    left: 0;
+    
+    background-color: rgb(53, 53, 53);
+    color : aliceblue ;
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    border-radius : 20px ;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+.logoButton {
+    background-color: unset;
+    border : unset ;
+}
+
+.logoButton img {
+    height : 120px ;
+    width: 120px;
+}
+.sideNav ul {
+    list-style: none;
+}
+
+.sideNav li {
+    padding-top : 25px ;
+}
+
+.sideNav button {
+    background-color: unset;
+    color : aliceblue ;
+    border : unset ;
+}
+
+
+
+.search input {
+    width: 300px;
+    border-radius: 5px;
+}
+.search button {
+    border-radius: 10px;
+}
